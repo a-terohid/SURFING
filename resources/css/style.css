@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ffffff;
+}
+
+/* navbar */
+#navbar{
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    padding: 40px 0;
+    font-size: 12px;
+}
+
+.navbar_items{
+    display: flex;
+    letter-spacing: 5px;
+    list-style:none;
+    margin-left: 13rem;
+}
+
+.list-item{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    position:relative;
+    justify-content: end;
+}
+
+.hd-text{
+  position: absolute;
+  left: 0;
+}
+
+.your{
+    color: #6db1f1;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.header-info{
+    color: #999494;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.hd-img{
+   width: 78%;
+   box-shadow: -25px 35px 103px -43px rgba(105,105,105,1);
+}
+
+.side-header{
+    height: 100%;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: -180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hd-logo{
+    width: 20px;
+    margin: 10px 0;
+}
+
+.object{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: 120px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+
+}
+
+.header-svg{
+    fill: #898484;
+}
+
+.side-text{
+    color: #bdbbbb;
+    rotate: -90deg;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slash-svg{
+    fill: #898484;
+    margin: 0 5px;
+}
+
+.blue-num{
+    color: #5da8ef;
+}
+
+
+#quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem 0;
+}
+
+.q-text{
+    display: flex;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 33px;
+    margin-bottom: 22px;
+    color: #5d5a5a;
+    font-size: 25px;
+}
+
+.q-name{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.line{
+    margin-top: 5rem;
+    width: 2px;
+    height: 100px;
+    background-color: #5da8ef;
+}
+
+
+#information{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: -3rem;
+}
+
+.info-media{
+    display: flex;
+}
+
+.info-media-img{
+    width: 40vw;
+}
+
+.info-media-vid{
+    width: 46vw;
+    margin-top: 50px;
+    margin-left: -50px;
+    right:0;
+    margin-right: 8rem;
+    position: absolute;
+}
+
+.info-text{
+    width: 350px;
+    margin: 60px 70px;
+}
+
+.info-text-p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #726d6d;
+    margin-bottom: 30px;
+}
+
+.more{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 7px ;
+    border-bottom: 2px solid #5da8ef;
+}
+
+#shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/pattern.png");
+    margin: 0 -8rem 10rem;
+}
+
+
+
+.shop-title{
+    margin-top: 320px;
+    text-align: center;
+}
+
+.shop-categoary{
+    color: #6db1f1;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.shop-title-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.All_products{
+    display: flex;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.products-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.borad{
+    position: relative;
+}
+
+.board-div{
+    background-color: #ececec;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top:37%;
+}
+
+.products-info{
+    margin-top: 130px;
+    margin-left: -20px;
+
+}
+
+.products-category{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: #726d6d;
+}
+
+.products-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.products-cost-div{
+    margin: 30px 0  0 40px;
+}
+
+.product-item-cost{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #cf52a3;
+    
+}
+
+.products-buy{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+
+#deatails{
+    margin: 4rem 0  ;
+}
+
+.section-one{
+    display: flex;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+}
+
+.sec-info{
+    margin-right: 3.5rem;
+    margin-top: 20px;
+}
+
+.sec-info-2{
+    margin-left: 3.5rem;
+    margin-right: 1.5rem;
+    margin-top: 20px;
+}
+.counter{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #545252;
+    opacity: 0.1;
+}
+
+.sec-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 53px ;
+    margin-top: -70px ;
+    padding-bottom: 7px ;
+}
+
+.ferst-letter{
+    border-bottom: 2px solid #5da8ef;
+}
+
+
+.sec-info-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 0 45px;
+    color: #726d6d;
+}
+
+.sec-media{
+    display: flex;
+}
+.sec-media-2{
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: row-reverse;
+}
+
+.sec-img-caption{
+    color: #bdbbbb;
+    rotate: -90deg;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    right: 3rem;
+    margin-top: 3rem;
+    /* margin-right: -150px; */
+}
+
+.sec-img-caption-2{
+    color: #bdbbbb;
+    rotate: -90deg;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    left: 8rem;
+    margin-top: 3rem;
+    /* margin-right: -150px; */
+}
+
+
+#join-club{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.club{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.club-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.club-info{
+    color: #777575;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 33px;
+    margin: 20px 0;
+}
+
+.ENTER{
+    display: flex;
+}
+
+.input{
+    width: 450px;
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    height: 45px;
+}
+
+.input::placeholder{
+    color: black;
+
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5da8ef;
+    padding: 2px;
+    width: 45px;
+}
+
+.club-svg{
+    fill: #ebf4fd;
+}
+
+#camp{
+    display: flex;
+    margin: 10rem 0 5rem ;
+    align-items: center;
+}
+
+.camp-img{
+    margin-left: -8rem;
+}
+
+
+.camp-info{
+    margin-left: 5rem;
+}
+
+
+.camp-descrptoin{
+    color: #989595;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.camp-title{
+    margin: 2rem 5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: #333333;
+}
+
+.camp-more{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 7px ;
+    color: #5da8ef;
+    border-bottom: 2px solid #5da8ef;
+    width: fit-content;
+}
+
+
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    justify-self: center;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+
+.footer_items{
+    display: flex;
+    letter-spacing: 5px;
+    list-style:none;
+    margin-top: 40px;
+}
+
+.ft-logo{
+    margin: 40px 17px;
+    cursor: pointer;
+}
