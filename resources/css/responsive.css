@@ -1,0 +1,488 @@
+/* Container */
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+/* Media Queries for Responsive Layout */
+@media (min-width: 640px)  { .container { max-width: 640px; } }
+@media (min-width: 768px)  { .container { max-width: 768px; } }
+@media (min-width: 1024px) { .container { max-width: 1024px; } }
+@media (min-width: 1280px) { .container { max-width: 1280px; } }
+@media (min-width: 1536px) { .container { max-width: 1536px; } }
+
+/* Additional Responsive Styles */
+@media (min-width: 1500px) {
+    .info-text {
+        margin: 3rem 0 0 3rem;
+    }
+    .info-media-img {
+        width: 700px;
+    }
+    .info-media-vid {
+        width: 800px;
+        right: 10%;
+    }
+}
+
+@media (max-width: 1279px) {
+    .camp-img {
+        margin-left: -12rem;
+    }
+    .camp-title {
+        margin: 1.5rem 3rem;
+    }
+    .info-text {
+        width: 300px;
+        margin: 3rem 0 0 0rem;
+    }
+    .info-text-p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .sec-img-1,
+    .sec-img-2 {
+        margin: 0;
+    }
+    .sec-img-1 {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar_items {
+        margin-left: 10rem;
+    }
+    .footer_items {
+        margin: 35px 0;
+    }
+    #camp {
+        display: flex;
+        flex-direction: column;
+    }
+    .camp-img {
+        margin-left: -23rem;
+    }
+    .camp-info {
+        margin: 5rem -30rem 0 0rem;
+    }
+    .shop-svg {
+        display: none;
+    }
+    .sec-img-1,
+    .sec-img-2 {
+        margin: 0 0 80px 0;
+    }
+    .sec-img-1 {
+        width: 45vw;
+    }
+    .sec-img-2 {
+        width: 40vw;
+    }
+    .section-two,
+    .section-one {
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-info,
+    .sec-info-2 {
+        margin-top: -4rem;
+    }
+    .info-text {
+        width: 240px;
+        margin: 3rem 0 0 6rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .navbar_items {
+        margin-left: 3rem;
+    }
+    .list-item {
+        margin: 0 10px;
+    }
+    .footer_items {
+        margin: 30px 0;
+    }
+    .info-text {
+        width: 240px;
+        margin: 3rem 0 0 0rem;
+    }
+    .section-one,
+    .section-two {
+        flex-direction: column-reverse;
+    }
+    .sec-info,
+    .sec-info-2 {
+        margin: 0;
+    }
+    .counter {
+        font-size: 50px;
+        font-weight: bold;
+        color: #545252;
+        opacity: 0.1;
+    }
+    .sec-title {
+        font-size: 39px;
+        margin-top: -35px;
+        padding-bottom: 7px;
+    }
+    .sec-info-text {
+        font-size: 13px;
+        margin: 20px 0px;
+    }
+    .sec-img-1,
+    .sec-img-2 {
+        width: 100%;
+        margin: 0 0 60px 0;
+    }
+    .sec-media-2 {
+        margin: 0;
+    }
+    .sec-img-caption {
+        font-size: 8px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        right: -3rem;
+        margin-top: 2rem;
+    }
+    .sec-img-caption-2 {
+        font-size: 8px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        left: -3rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .camp-img {
+        margin-left: -20rem;
+    }
+    .camp-info {
+        margin: 5rem 0rem 0 20rem;
+    }
+    .camp-descrptoin,
+    .camp-more {
+        font-size: 9px;
+    }
+    .camp-title {
+        margin: 1.5rem 3rem;
+        font-size: 21px;
+    }
+    .products-item {
+        margin: 0 1rem;
+    }
+    #shop {
+        margin: 0 -3rem;
+    }
+    .info-text {
+        width: 240px;
+        margin: 3rem 0 0 0rem;
+    }
+}
+
+@media (max-width: 778px) {
+    .navbar_items {
+        margin-left: 1rem;
+    }
+    .list-item {
+        margin: 0 5px;
+        font-size: 9px;
+    }
+    .footer_items {
+        margin: 25px 0;
+    }
+    .input {
+        width: 330px;
+        font-size: 9px;
+        height: 40px;
+    }
+    .arrow {
+        width: 40px;
+    }
+    .club-title {
+        font-size: 35px;
+    }
+    .club-info {
+        color: #777575;
+        font-size: 12px;
+        line-height: 33px;
+    }
+    .club-info {
+        line-height: 28px;
+    }
+    .camp-descrptoin,
+    .camp-more {
+        font-size: 9px;
+    }
+    .camp-title {
+        margin: 1.5rem 0rem;
+        font-size: 22px;
+        text-align: center;
+    }
+    .camp-img {
+        margin-left: 0rem;
+        width: 100vw;
+    }
+    .camp-info {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #shop {
+        margin: 0 -2.8rem;
+    }
+    .board-img {
+        width: 30vw;
+    }
+    .products-info {
+        margin: 40px 0 0 -15px;
+    }
+    #information {
+        flex-direction: column;
+    }
+    .info-text-p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .info-media {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-media-img {
+        width: 100%;
+        margin: 50px 0 20px 0px;
+    }
+    .info-media-vid {
+        margin: 0 -0px 0px 0;
+        width: 100%;
+        position: static;
+    }
+    .info-text {
+        width: fit-content;
+        margin: 0px;
+    }
+    .more2 {
+        font-size: 10px;
+        letter-spacing: 3px;
+        padding-bottom: 4px;
+    }
+    #header {
+        flex-direction: column;
+    }
+    .hd-text {
+        position: relative;
+    }
+    .object,
+    .side-header {
+        display: none;
+    }
+    .header-title {
+        font-size: 50px;
+        margin: 5px 0;
+    }
+    .header-info {
+        width: fit-content;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .your {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+    .hd-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar_items {
+        margin-left: 20px;
+    }
+    .list-item {
+        margin: 0 5px;
+        font-size: 9px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .Sufring_logo {
+        width: 10px;
+    }
+    .footer_items {
+        margin: 20px 0;
+    }
+    .ft-logo {
+        margin: 0px 9px;
+        width: 16px;
+    }
+    .q-text {
+        line-height: 25px;
+        margin-bottom: 22px;
+        font-size: 15px;
+    }
+    .q-name {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+    .line {
+        margin-top: 3rem;
+    }
+    .input {
+        width: 200px;
+        font-size: 9px;
+    }
+    .club-title {
+        font-size: 25px;
+    }
+    .club-info {
+        color: #777575;
+        font-size: 9px;
+        line-height: 20px;
+        margin: 15px 0;
+    }
+    .camp-title {
+        margin: 1.5rem 0rem;
+        font-size: 15px;
+        text-align: center;
+    }
+    .products-item {
+        margin: 0;
+    }
+    .products {
+        align-items: center;
+    }
+    .products-info {
+        margin: 40px 0 0 -10px;
+    }
+    #shop {
+        margin: 0 -3rem 0;
+        padding-bottom: 2rem;
+    }
+    .products-title {
+        font-size: 18px;
+    }
+    .products-category,
+    .shop-categoary {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    .products-cost-div {
+        margin: 15px 0 0 20px;
+    }
+    .product-item-cost {
+        font-size: 15px;
+    }
+    .products-buy {
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    .shop-title-text {
+        font-size: 28px;
+    }
+    .more {
+        font-size: 9px;
+        padding-bottom: 4px;
+        letter-spacing: 3px;
+    }
+    .info-text {
+        width: fit-content;
+        margin: 0px;
+    }
+    #information {
+        flex-direction: column;
+        margin-bottom: -10rem;
+    }
+    .info-text-p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .info-media {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-media-img {
+        width: 100%;
+        margin: 50px 0 20px 0px;
+    }
+    .info-media-vid {
+        margin: 0 -0px 0px 0;
+        width: 100%;
+        position: static;
+    }
+    .section-one,
+    .section-two {
+        flex-direction: column-reverse;
+    }
+    .sec-info,
+    .sec-info-2 {
+        margin: 0;
+    }
+    .counter {
+        font-size: 50px;
+        font-weight: bold;
+        color: #545252;
+        opacity: 0.1;
+    }
+    .sec-title {
+        font-size: 33px;
+        margin-top: -35px;
+        padding-bottom: 7px;
+    }
+    .sec-info-text {
+        font-size: 10px;
+        margin: 20px 0px;
+    }
+    .sec-img-1,
+    .sec-img-2 {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+    .sec-media-2 {
+        margin: 0;
+    }
+    .sec-img-caption {
+        font-size: 6px;
+    }
+    .sec-img-caption-2 {
+        font-size: 6px;
+    }
+    .header-title {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    .header-info {
+        width: fit-content;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 374px) {
+    .navbar_items {
+        margin-left: 15px;
+    }
+    .list-item {
+        margin: 0 4px;
+        letter-spacing: 1px;
+    }
+    .Sufring_logo {
+        width: 10px;
+    }
+    .footer_items {
+        margin: 15px 0;
+    }
+    .ft-logo {
+        margin: 0px 6px;
+        width: 12px;
+    }
+}

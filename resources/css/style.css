@@ -8,7 +8,7 @@ body{
     background-color:#ffffff;
 }
 
-/* navbar */
+/* NAVBAR */
 #navbar{
     display: flex;
     font-family: 'League Spartan', sans-serif;
@@ -30,6 +30,7 @@ body{
     cursor: pointer;
 }
 
+/* HEADER */
 #header{
     display: flex;
     align-items: center;
@@ -84,8 +85,7 @@ body{
 
 .head-logo{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .hd-logo{
@@ -124,7 +124,7 @@ body{
     color: #5da8ef;
 }
 
-
+/* QUOTES */
 #quotes{
     display: flex;
     flex-direction: column;
@@ -157,28 +157,30 @@ body{
     background-color: #5da8ef;
 }
 
-
+/* INFORMATION */
 #information{
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: -3rem;
+    position: relative;
 }
 
 .info-media{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-media-img{
     width: 40vw;
+    /* margin-right: -3rem; */
 }
 
 .info-media-vid{
     width: 46vw;
-    margin-top: 50px;
+    margin-bottom: -300px;
     margin-left: -50px;
-    right:0;
-    margin-right: 8rem;
-    position: absolute;
+
 }
 
 .info-text{
@@ -191,7 +193,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: #726d6d;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .more{
@@ -204,6 +206,7 @@ body{
     border-bottom: 2px solid #5da8ef;
 }
 
+/* SHOP */
 #shop{
     display: flex;
     flex-direction: column;
@@ -212,8 +215,6 @@ body{
     background: url("../img/pattern.png");
     margin: 0 -8rem 10rem;
 }
-
-
 
 .shop-title{
     margin-top: 320px;
@@ -242,6 +243,8 @@ body{
 .products{
     display: flex;
     margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .products-item{
@@ -300,7 +303,7 @@ body{
     font-size: 15px;
 }
 
-
+/* DETAILS */
 #deatails{
     margin: 4rem 0  ;
 }
@@ -355,8 +358,10 @@ body{
 
 .sec-media{
     display: flex;
+    position: relative;
 }
 .sec-media-2{
+    position: relative;
     display: flex;
     margin-left: 5rem;
     flex-direction: row-reverse;
@@ -370,9 +375,9 @@ body{
     font-weight: 500;
     font-family: 'League Spartan', sans-serif;
     position: absolute;
-    right: 3rem;
+    right: -5rem;
     margin-top: 3rem;
-    /* margin-right: -150px; */
+
 }
 
 .sec-img-caption-2{
@@ -383,12 +388,11 @@ body{
     font-weight: 500;
     font-family: 'League Spartan', sans-serif;
     position: absolute;
-    left: 8rem;
+    left: -5rem;
     margin-top: 3rem;
-    /* margin-right: -150px; */
 }
 
-
+/* JOIN CLUB */
 #join-club{
     display: flex;
     flex-direction: column;
@@ -453,6 +457,7 @@ body{
     fill: #ebf4fd;
 }
 
+/* CAMP */
 #camp{
     display: flex;
     margin: 10rem 0 5rem ;
@@ -480,7 +485,7 @@ body{
 .camp-title{
     margin: 2rem 5rem;
     font-family: 'Playfair Display', serif;
-    font-size: 35px;
+    font-size: 30px;
     color: #333333;
 }
 
@@ -497,7 +502,7 @@ body{
 }
 
 
-/* footer */
+/* FOOTER */
 #footer{
     display: flex;
     flex-direction: column;
@@ -505,6 +510,7 @@ body{
     align-items: center;
     justify-self: center;
     font-size: 12px;
+    font-weight: 500;
     margin-top: 40px;
 }
 
@@ -513,10 +519,10 @@ body{
     display: flex;
     letter-spacing: 5px;
     list-style:none;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 .ft-logo{
-    margin: 40px 17px;
+    margin: 0px 17px;
     cursor: pointer;
 }
